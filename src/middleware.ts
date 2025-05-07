@@ -17,3 +17,6 @@ export const config = {
     '/(api|trpc)(.*)',
   ],
 };
+
+
+console.log(`test middleware`);
