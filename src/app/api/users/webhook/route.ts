@@ -23,7 +23,6 @@ export const POST = async (req: Request) => {
             status: 400
         })
     }
-    // console.log(`//===========header==========//`, headerPayload);
 
     const payload = await req.json();
     const body = JSON.stringify(payload);
